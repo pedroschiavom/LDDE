@@ -10,6 +10,7 @@ using namespace std;
 int main(int argc, char *argv[])
   
 {
+    //Abrindo o arquivo
    	string line;
 	ifstream myfile ("dictionary.txt");
 	if (myfile.is_open()){
